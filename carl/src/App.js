@@ -14,23 +14,25 @@ function App() {
     <div>
       <Router>
         <Container>
-          <Row>
-            <Col sm={3}>
-              <Link to="/aboutme">About me</Link>
-            </Col>
-            <Col sm={3}>
-              <Link to="/portfolio">Portfolio</Link>
-            </Col>
-            <Col sm={3}>
-              <Link to="/contact">Contact</Link>
-            </Col>
-            <Col sm={3}>
-              <Link to="/resume">Resume</Link>
-            </Col>
-          </Row>
+          <header>
+            <Row>
+              <Col sm={3}>
+                <Link to="/aboutme">About me</Link>
+              </Col>
+              <Col sm={3}>
+                <Link to="/portfolio">Portfolio</Link>
+              </Col>
+              <Col sm={3}>
+                <Link to="/contact">Contact</Link>
+              </Col>
+              <Col sm={3}>
+                <Link to="/resume">Resume</Link>
+              </Col>
+            </Row>
+          </header>
         </Container>
         <Route exact path="/">
-          <Redirect to="/portfolio"></Redirect>
+          <Redirect to="/aboutme"></Redirect>
         </Route>
         <Route exact path="/aboutme">
           <Aboutme />
