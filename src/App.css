@@ -1,5 +1,22 @@
 .App {
   text-align: center;
+  font-family: "Quantico", sans-serif;
+}
+
+.link {
+  color: #000;
+}
+.link:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.link:active {
+  font-weight: bolder;
+}
+.link:hover {
+  color: #000;
+  font-weight: bold;
 }
 
 .App-logo {

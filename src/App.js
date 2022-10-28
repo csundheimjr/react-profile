@@ -23,6 +23,7 @@ function App() {
   return (
     <div
       style={{
+        fontFamily: "Quantico, sans-serif",
         backgroundImage: `url(${background})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -42,16 +43,24 @@ function App() {
             </Row>
             <Row>
               <Col style={style.name} sm={3}>
-                <Link to="/aboutme">About me</Link>
+                <Link className="link" to="/aboutme">
+                  About me
+                </Link>
               </Col>
               <Col style={style.name} sm={3}>
-                <Link to="/portfolio">Portfolio</Link>
+                <Link className="link" to="/portfolio">
+                  Portfolio
+                </Link>
               </Col>
               <Col style={style.name} sm={3}>
-                <Link to="/contact">Contact</Link>
+                <Link className="link" to="/contact">
+                  Contact
+                </Link>
               </Col>
               <Col style={style.name} sm={3}>
-                <Link to="/resume">Resume</Link>
+                <Link className="link" to="/resume">
+                  Resume
+                </Link>
               </Col>
             </Row>
           </header>
@@ -76,15 +85,25 @@ function App() {
         <footer>
           <Row>
             <Col style={{ textAlign: "center" }} sm={4}>
-              <a href="https://github.com/csundheimjr">GitHub</a>
+              <a className="link" href="https://github.com/csundheimjr">
+                GitHub
+              </a>
             </Col>
             <Col style={{ textAlign: "center" }} sm={4}>
-              <a href="https://www.linkedin.com/in/carl-sundheim-jr-b432b01b3/">
+              <a
+                className="link"
+                href="https://www.linkedin.com/in/carl-sundheim-jr-b432b01b3/"
+              >
                 Linkedin
               </a>
             </Col>
             <Col style={{ textAlign: "center" }} sm={4}>
-              <a href="https://www.facebook.com/carl.sundheim/">FaceBook</a>
+              <a
+                className="link"
+                href="https://www.facebook.com/carl.sundheim/"
+              >
+                FaceBook
+              </a>
             </Col>
           </Row>
           <Row style={style.footer}>
