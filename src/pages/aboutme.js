@@ -13,6 +13,7 @@ export default function Aboutme() {
       textAlign: "center",
     },
     image: {
+      width: "35%",
       borderRadius: "20%",
       margin: "25px",
     },

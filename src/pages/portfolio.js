@@ -18,7 +18,7 @@ export default function Portfolio() {
             <img src={github} alt="Cat GITHUB logo" />
           </a>
         </Row>
-        <div style={{ borderBottom: "5px solid black" }}></div>
+        <div style={{ borderTop: "5px solid black" }}></div>
         <Row style={style.row}>
           <h1>Fuzzy Friend Finder</h1>
           <a
@@ -36,7 +36,7 @@ export default function Portfolio() {
             Github repository
           </Button>
         </Row>
-        <div style={{ borderBottom: "5px solid black" }}></div>
+        <div style={{ borderTop: "5px solid black" }}></div>
         <Row style={style.row}>
           <h1>Coming soon..</h1>
           <a href="https://csundheimjr.github.io/" target="_blank">
@@ -55,7 +55,7 @@ export default function Portfolio() {
             Github repository
           </Button>
         </Row>
-        <div style={{ borderBottom: "5px solid black" }}></div>
+        {/* <div style={{ borderTop: "5px solid black" }}></div> */}
       </Container>
     </div>
   );

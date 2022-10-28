@@ -64,6 +64,7 @@ function App() {
               </Col>
             </Row>
           </header>
+          <div style={{ borderBottom: "5px solid black" }}></div>
         </Container>
         <Route exact path="/">
           <Redirect to="/aboutme"></Redirect>
@@ -82,6 +83,7 @@ function App() {
         </Route>
       </Router>
       <Container>
+        <div style={{ borderTop: "5px solid black" }}></div>
         <footer>
           <Row>
             <Col style={{ textAlign: "center" }} sm={4}>
