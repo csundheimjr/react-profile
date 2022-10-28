@@ -3,6 +3,7 @@ import { Container, Button, Row } from "react-bootstrap";
 import github from "./images/github.png";
 import fff from "./images/fff-logo.jpg";
 import hobbyspot from "./images/hobbyspot.png";
+import tripsplit from "./images/trip-split.png";
 
 export default function Portfolio() {
   const style = {
@@ -53,6 +54,20 @@ export default function Portfolio() {
           </Button>
         </Row>
         <div style={{ borderTop: "5px solid black" }}></div>
+        <Row style={style.row}>
+          <h1>Trip Split</h1>
+          <a href="https://trip-split-atoz.herokuapp.com/" target="_blank">
+            <img style={{ width: "50%" }} src={tripsplit} alt="Trip Split" />
+          </a>
+          <h3>Click image for deployed site.</h3>
+          <Button
+            href="https://github.com/csundheimjr/trip_split"
+            style={{ width: "50%", margin: "auto", padding: "auto" }}
+            variant="outline-dark"
+          >
+            Github repository
+          </Button>
+        </Row>
         <Row style={style.row}>
           <h1>Comming soon..</h1>
           <a href="https://csundheimjr.github.io/" target="_blank">
