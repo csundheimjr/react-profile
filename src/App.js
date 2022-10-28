@@ -13,6 +13,7 @@ import background from "./pages/images/circuitboard-background.png";
 function App() {
   const style = {
     name: {
+      fontWeight: "700%",
       textAlign: "center",
     },
     footer: {
