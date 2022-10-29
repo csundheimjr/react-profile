@@ -13,18 +13,19 @@ This is my react portfolio to let potential employers view my work and resume.
 
 ## Installation
 
-Clone repository
-Install node modules with npm i
+- Clone repository
+- Install node modules with npm i
 
 ## Usage
 
-Select deployed link and navigate pages.
+- Select deployed link and navigate pages.
+- https://fathomless-retreat-87149.herokuapp.com/aboutme
 
 ## Credits
 
-Carl Sundheim
-csundheim@gmail.com
-https://github.com/csundheimjr
+- Carl Sundheim
+- csundheim@gmail.com
+- https://github.com/csundheimjr
 
 ## License
 
