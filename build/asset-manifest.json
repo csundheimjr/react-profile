@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22261511.css",
+    "main.js": "/static/js/main.121a5197.js",
+    "static/js/787.2b62bcad.chunk.js": "/static/js/787.2b62bcad.chunk.js",
+    "static/media/hobbyspot.png": "/static/media/hobbyspot.cc56ddd17c9610805284.png",
+    "static/media/resume.png": "/static/media/resume.a1f5be5cc1e81da9f095.png",
+    "static/media/circuitboard-background.png": "/static/media/circuitboard-background.0078ae3bfccb5a84bee2.png",
+    "static/media/circuitboard-background.jpg": "/static/media/circuitboard-background.ac6bb2142a3585658b95.jpg",
+    "static/media/CarlSundheimResume.pdf": "/static/media/CarlSundheimResume.35131336cc009ca74fb2.pdf",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.fc82eb7382b515e7bcf9.jpg",
+    "static/media/weatherdashboard.png": "/static/media/weatherdashboard.71769c9cef6981452bd4.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.f0a1ef9ebcd1d896d68c.png",
+    "static/media/mail.jpg": "/static/media/mail.60889330146b94990788.jpg",
+    "static/media/passwordgenerator.png": "/static/media/passwordgenerator.1b894893b2bc189be982.png",
+    "static/media/trip-split.png": "/static/media/trip-split.cb48344170b4f369b9e3.png",
+    "static/media/phone.jpg": "/static/media/phone.5531ae1bd8110cbd19cb.jpg",
+    "static/media/linkedin.png": "/static/media/linkedin.2deda3382a3c6b137661.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.22261511.css.map": "/static/css/main.22261511.css.map",
+    "main.121a5197.js.map": "/static/js/main.121a5197.js.map",
+    "787.2b62bcad.chunk.js.map": "/static/js/787.2b62bcad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22261511.css",
+    "static/js/main.121a5197.js"
+  ]
+}

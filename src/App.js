@@ -40,7 +40,7 @@ function App() {
         <Container>
           <header>
             <Row>
-              <h1 style={style.name}>Carl Sundheim</h1>
+              <h1 style={style.name}>Carl Sundheim Jr.</h1>
             </Row>
             <Row>
               <Col style={style.name} sm={3}>
@@ -87,12 +87,12 @@ function App() {
         <div style={{ borderTop: "5px solid black" }}></div>
         <footer>
           <Row>
-            <Col style={{ textAlign: "center" }} sm={4}>
+            <Col style={{ textAlign: "center" }} sm={6}>
               <a className="link" href="https://github.com/csundheimjr">
                 GitHub
               </a>
             </Col>
-            <Col style={{ textAlign: "center" }} sm={4}>
+            <Col style={{ textAlign: "center" }} sm={6}>
               <a
                 className="link"
                 href="https://www.linkedin.com/in/carl-sundheim-jr-b432b01b3/"
@@ -100,14 +100,14 @@ function App() {
                 Linkedin
               </a>
             </Col>
-            <Col style={{ textAlign: "center" }} sm={4}>
+            {/* <Col style={{ textAlign: "center" }} sm={4}>
               <a
                 className="link"
                 href="https://www.facebook.com/carl.sundheim/"
               >
                 FaceBook
               </a>
-            </Col>
+            </Col> */}
           </Row>
           <Row style={style.footer}>
             Carl Sundheim Portfolio created with React

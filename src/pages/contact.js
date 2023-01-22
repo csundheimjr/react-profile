@@ -29,7 +29,7 @@ export default function Contact() {
     <div style={{ backgroundColor: "transparent" }}>
       <Container style={style.row}>
         <p class="links">
-          <Row style={style.form}>
+          {/* <Row style={style.form}>
             <Form>
               <Form.Group
                 className="mb-3"
@@ -66,7 +66,7 @@ export default function Contact() {
                 Submit
               </Button>
             </Form>
-          </Row>
+          </Row> */}
           <Row>
             <a
               href="https://www.linkedin.com/in/carl-sundheim-jr-b432b01b3/"
