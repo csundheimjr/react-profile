@@ -19,7 +19,7 @@ This is my react portfolio to let potential employers view my work and resume.
 ## Usage
 
 - Select deployed link and navigate pages.
-- https://fathomless-retreat-87149.herokuapp.com/aboutme
+- https://carlsundheim.netlify.app/
 
 ## Credits
 
