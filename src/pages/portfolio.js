@@ -63,7 +63,7 @@ export default function Portfolio() {
         {/* trip split */}
         <Row style={style.row}>
           <h1>Trip Split</h1>
-          <a href="https://trip-split-atoz.herokuapp.com/" target="_blank">
+          <a href="https://carltripsplit.netlify.app/" target="_blank">
             <img style={{ width: "50%" }} src={tripsplit} alt="Trip Split" />
           </a>
           <h3>Click image for deployed site.</h3>
